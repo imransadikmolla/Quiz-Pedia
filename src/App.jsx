@@ -6,6 +6,7 @@ import { DataProvider } from './context/dataContext';
 
 function App() {
   return (
+    // Use for context api
     <DataProvider>
       {/* Welcome Page */}
       <Start/>
